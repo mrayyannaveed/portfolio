@@ -25,14 +25,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <BackgroundBeamsWithCollision children={undefined} className='min-h-screen  flex justify-center items-center overflow-hidden'/>
-        <Navbar/>
+// RootLayout.tsx
+<html lang="en">
+  <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}>
+    <Navbar />
+      {/* <BackgroundBeamsWithCollision className="min-h-screen flex flex-col justify-center items-center px-4">
         {children}
-      </body>
-    </html>
+      </BackgroundBeamsWithCollision> */}
+      {children}
+  </body>
+</html>
+
   );
 }
