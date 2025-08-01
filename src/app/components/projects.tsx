@@ -104,65 +104,66 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
+import { Project } from "../types/skillsType"
 
 const ProjectsCom = () => {
-  const projectsCom = [
+  const projectsCom: Project[] = [
     {
-      heading: "Pak Wheels",
+      head: "Pak Wheels",
       desc: "A website for a car rental company",
       image: "/projects/pakwheels.JPG",
       link: "https://my-pakwheels-app.vercel.app/",
     },
     {
-      heading: "Panacloud Company Porfolio",
+      head: "Panacloud Company Porfolio",
       desc: "A panacloud Website",
       image: "/projects/panacloud.png",
       link: "https://company-portfolio-indol.vercel.app/",
     },
     {
-      heading: "Static Resume Builder",
+      head: "Static Resume Builder",
       desc: "My personal static resume",
       image: "/projects/resume.png",
       link: "https://resume-builder-phi-red.vercel.app/",
     },
     {
-      heading: "Chairs E-commerce Website",
+      head: "Chairs E-commerce Website",
       desc: "A e-commerce website for chairs",
       image: "/projects/chairWeb.png",
       link: "https://ui-ux-api-integration.vercel.app/",
     },
     {
-      heading: "Dynamic Editable Resume",
+      head: "Dynamic Editable Resume",
       desc: "My Personal Dynamic resume you can also generate your resume with it.",
       image: "/projects/dynamicEditableResume.png",
       link: "https://unique-path-and-shareable-link-nu.vercel.app/",
     },
     {
-      heading: "Portfolio With Simple Css",
+      head: "Portfolio With Simple Css",
       desc: "A personal porfolio using nextjs with vanilla css",
       image: "/projects/cssPortfolio.png",
       link: "https://portfolio-with-css-8.vercel.app/",
     },
     {
-      heading: "UI UX E-commerce Website",
+      head: "UI UX E-commerce Website",
       desc: "A e-commerce website for clothes.",
       image: "/projects/ui-ux-web.png",
       link: "https://ui-ux-ecommerce-web.vercel.app/",
     },
     {
-      heading: "Sports Blog Website",
+      head: "Sports Blog Website",
       desc: "CricBlocks Your ultimate destination for sports news and expert analysis.",
       image: "/projects/sports-blog.png",
       link: "https://blogs-web-site-phi.vercel.app/",
     },
     {
-      heading: "Web Developer Agent",
+      head: "Web Developer Agent",
       desc: "This agent can fullfils your frontend and bankend queries.",
       image: "/projects/frontend_agent.png",
       link: "https://generative-and-agentic-ai-projects-production.up.railway.app/",
     },
     {
-      heading: "Cooking Agent",
+      head: "Cooking Agent",
       desc: "This agent can suggest you a dish and provide any recipe you want.",
       image: "/projects/cooking_agent.png",
       link: "https://generative-and-agentic-ai-projects-production-1272.up.railway.app/",
@@ -181,15 +182,15 @@ const ProjectsCom = () => {
           className="w-full max-w-7xl lg:max-w-6xl"
         >
           <CarouselContent>
-            {projectsCom.map((project, index) => (
+            {projectsCom.map((project: Project, index) => (
               <CarouselItem
                 key={index}
                 className="px-2 sm:basis-full md:basis-1/2 lg:basis-1/3"
               >
                 <div className="w-full h-full">
                   <ProjectsComponent
-                    key={project.heading}
-                    head={project.heading}
+                    key={project.head}
+                    head={project.head}
                     desc={project.desc}
                     image={project.image}
                     link={project.link}

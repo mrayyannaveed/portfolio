@@ -30,9 +30,6 @@ export default function RootLayout({
 <html lang="en">
   <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}>
     <Navbar />
-      {/* <BackgroundBeamsWithCollision className="min-h-screen flex flex-col justify-center items-center px-4">
-        {children}
-      </BackgroundBeamsWithCollision> */}
       {children}
       <Footer/>
   </body>
