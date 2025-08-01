@@ -28,7 +28,9 @@ export default function RootLayout({
   return (
 // RootLayout.tsx
 <html lang="en">
-  <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}>
+  <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative min-h-screen text-white bg-gradient-to-br from-cyan-900 via-black to-emerald-800
+`}>
+
     <Navbar />
       {children}
       <Footer/>

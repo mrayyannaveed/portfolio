@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font">
+    <footer className="text-gray-600 body-font opacity-80 bg-gray-900/80">
   <div className="container px-5 py-8 mx-auto flex items-center justify-center sm:flex-row flex-col">
     <Link href={''} className="flex title-font font-medium items-center md:justify-start justify-center text-gray-500">
       <span className="ml-3 text-xl">Muhammad Rayyan</span>

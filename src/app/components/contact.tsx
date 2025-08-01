@@ -1,6 +1,6 @@
 const ContactCom = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[#1f2937] to-[#111827] flex flex-col justify-center items-center py-16 px-4">
+    <section className="min-h-screen flex flex-col justify-center items-center py-16 px-4">
       <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-serif font-bold text-white hover:text-lime-600 text-center mb-10 transition-all duration-300 hover:uppercase">
           Contact us
         </h1>

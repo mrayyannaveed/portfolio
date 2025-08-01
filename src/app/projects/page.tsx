@@ -3,7 +3,7 @@ import ProjectsCom from '../components/projects'
 
 const Projects = () => {
   return (
-    <div>
+    <div className='block'>
         <ProjectsCom/>
     </div>
   )
