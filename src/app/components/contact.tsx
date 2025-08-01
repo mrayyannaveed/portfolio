@@ -1,12 +1,12 @@
 const ContactCom = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-[#1f2937] to-[#111827] flex flex-col justify-center items-center py-16 px-4">
-      <h1 className="text-center text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-10">
-        Contact Us
-      </h1>
+      <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-serif font-bold text-white hover:text-lime-600 text-center mb-10 transition-all duration-300 hover:uppercase">
+          Contact us
+        </h1>
 
       <form
-        className="bg-white shadow-lg rounded-xl p-6 w-full sm:w-[90%] md:w-[70%] lg:w-[60%] xl:w-[40%] space-y-4"
+        className="bg-zinc-400 shadow-lg rounded-xl p-6 w-full sm:w-[90%] md:w-[70%] lg:w-[60%] xl:w-[40%] space-y-4"
       >
         {/* Name */}
         <div className="flex flex-col">
@@ -56,7 +56,7 @@ const ContactCom = () => {
         <div className="flex justify-end">
           <button
             type="submit"
-            className="bg-[#ffac1d] hover:bg-[#fbcd7f] text-white font-semibold py-2 px-6 rounded-lg transition shadow-md hover:shadow-lg"
+            className="bg-[#ffac1d] hover:bg-[#fbcd7f] text-white font-semibold py-2 px-6 rounded-lg transition shadow-md hover:shadow-lg cursor-pointer" 
           >
             Send
           </button>

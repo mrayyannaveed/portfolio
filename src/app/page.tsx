@@ -1,13 +1,13 @@
 import Hero from "./components/hero";
-import ProjectsCom from "./components/projects";
-import SkillsCom from "./components/skills";
+import Contact from "./contact/page";
 import Projects from "./projects/page";
+import Skill from "./skills/page";
 
 export default function Home() {
   return (
     <div className="">
       <Hero/>
-      <SkillsCom/>
+      <Skill/>
       <Projects/>
     </div>
   );

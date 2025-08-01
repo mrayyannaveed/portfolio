@@ -149,12 +149,30 @@ const ProjectsCom = () => {
       image: "/projects/ui-ux-web.png",
       link: "https://ui-ux-ecommerce-web.vercel.app/",
     },
+    {
+      heading: "Sports Blog Website",
+      desc: "CricBlocks Your ultimate destination for sports news and expert analysis.",
+      image: "/projects/sports-blog.png",
+      link: "https://blogs-web-site-phi.vercel.app/",
+    },
+    {
+      heading: "Web Developer Agent",
+      desc: "This agent can fullfils your frontend and bankend queries.",
+      image: "/projects/frontend_agent.png",
+      link: "https://generative-and-agentic-ai-projects-production.up.railway.app/",
+    },
+    {
+      heading: "Cooking Agent",
+      desc: "This agent can suggest you a dish and provide any recipe you want.",
+      image: "/projects/cooking_agent.png",
+      link: "https://generative-and-agentic-ai-projects-production-1272.up.railway.app/",
+    },
   ]
 
   return (
     <div className="text-white px-4 sm:px-6 lg:px-8 py-16 lg:w-[90vw] w-[80vw] mx-auto">
       <section className="flex flex-col items-center">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white hover:text-lime-600 text-center mb-10 transition-all duration-300">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-serif font-bold text-white hover:text-lime-600 text-center mb-10 transition-all duration-300 hover:uppercase">
           Projects
         </h1>
 
@@ -181,8 +199,8 @@ const ProjectsCom = () => {
             ))}
           </CarouselContent>
 
-          <CarouselPrevious className="bg-white text-black rounded-full p-2 shadow-md hover:scale-105 transition" />
-          <CarouselNext className="bg-white text-black rounded-full p-2 shadow-md hover:scale-105 transition" />
+          <CarouselPrevious className="bg-white text-black rounded-full p-2 shadow-md hover:scale-105 transition cursor-pointer" />
+          <CarouselNext className="bg-white text-black rounded-full p-2 shadow-md hover:scale-105 transition cursor-pointer" />
         </Carousel>
       </section>
     </div>

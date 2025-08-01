@@ -78,7 +78,7 @@ const SkillsCom = () => {
     <div className='text-white'>
         <section className='flex flex-col items-center bg-yellow-5 py-20'>
 
-            <h1 className="ml-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white hover:text-lime-600 animate-bounce hover:uppercase text-center mt-20 mb-10">
+            <h1 className="ml-3 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-serif font-bold text-white hover:text-lime-600 animate-bounce hover:uppercase text-center mt-20 mb-10">
                 Skills
             </h1>
             <section className='grid lg:grid-cols-3 md:grid-cols-2 md:gap-10  lg:w-[90vw] w-[80vw] gap-5 mb-14'>

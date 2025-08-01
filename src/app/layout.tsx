@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import { BackgroundBeamsWithCollision } from "./components/ui/background-beams-with-collision";
+import Footer from "./components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
         {children}
       </BackgroundBeamsWithCollision> */}
       {children}
+      <Footer/>
   </body>
 </html>
 
