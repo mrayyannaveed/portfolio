@@ -27,8 +27,8 @@ const ServicesCom = () => {
     ]
   return (
     <div>
-        <section className='flex justify-around items-center flex-col bg-yellow-5 mb-10'>
-            <h1 className="ml-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white hover:text-lime-600 animate-bounce hover:uppercase text-center mt-20">
+        <section className='flex justify-around items-center flex-col bg-yellow-5 py-20'>
+            <h1 className="ml-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white hover:text-lime-600 animate-bounce hover:uppercase text-center mt-20 mb-10">
                 Services
             </h1>
             <section className='grid lg:grid-cols-3 w-[90vw] gap-5 mb-14'>
