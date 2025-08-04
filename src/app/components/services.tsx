@@ -27,7 +27,7 @@ const ServicesCom = () => {
     ]
   return (
     <div>
-        <section className='flex justify-around items-center flex-col h-[100vh] bg-yellow-5 mb-10'>
+        <section className='flex justify-around items-center flex-col bg-yellow-5 mb-10'>
             <h1 className="ml-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white hover:text-lime-600 animate-bounce hover:uppercase text-center mt-20">
                 Services
             </h1>

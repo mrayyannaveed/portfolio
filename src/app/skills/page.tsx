@@ -3,7 +3,7 @@ import SkillsCom from '../components/skills'
 
 const Skill = () => {
   return (
-    <div className='block'>
+    <div>
         <SkillsCom/>
     </div>
   )

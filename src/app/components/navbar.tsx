@@ -44,16 +44,16 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-md shadow-lg bg-gray-900/80 text-white p-4 px-8 rounded-b-2xl mb-20 md:mb-0">
+    <nav className="sticky top-0 z-50 backdrop-blur-md shadow-lg bg-gray-900/80 text-white p-4 px-8 rounded-b-2xl mb-40 sm:mb-36 md:mb-28 lg:mb-0">
       {/* Mobile view */}
-      <div className="flex items-center  md:hidden">
+      <div className="flex items-center md:hidden">
         <button onClick={toggleMenu} className="text-white">
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
       {isOpen && (
-        <div className="flex flex-col gap-3 mt-4 md:hidden">
+        <div className="flex flex-col gap-3 mt-4 md:hidden ">
           {navLinks}
         </div>
       )}

@@ -58,8 +58,8 @@ const Typewriter = dynamic(() => import("typewriter-effect"), { ssr: false });
 
 const Hero = () => {
   return (
-    <div className="mt-10 lg:mt-0 block">
-      <section className="flex lg:justify-evenly flex-col-reverse lg:flex-row items-center h-[85vh] ">
+    <div className="mt-28 lg:mt-0">
+      <section className="flex lg:justify-evenly flex-col-reverse lg:flex-row items-center h-[95vh] lg:h-[90vh] ">
         <section className="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] gap-5 bg-blue-30 flex flex-col items-center lg:items-start">
             <h1 className="title-font text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 text-lime-500 font-serif font-bold hover:uppercase hover:text-lime-400 w-[90%] sm:w-[70%] md:w-[65%] lg:w-full">
                 <div>
