@@ -10,9 +10,7 @@ const ContactCom = () => {
       >
         {/* Name */}
         <div className="flex flex-col">
-          <label htmlFor="name" className="text-gray-700 font-medium">
-            Name
-          </label>
+          
           <input
             type="text"
             id="name"
@@ -25,9 +23,6 @@ const ContactCom = () => {
 
         {/* Email */}
         <div className="flex flex-col">
-          <label htmlFor="email" className="text-gray-700 font-medium">
-            Email
-          </label>
           <input
             type="email"
             id="email"
@@ -40,9 +35,6 @@ const ContactCom = () => {
 
         {/* Message */}
         <div className="flex flex-col">
-          <label htmlFor="message" className="text-gray-700 font-medium">
-            Message
-          </label>
           <textarea
             id="message"
             name="message"

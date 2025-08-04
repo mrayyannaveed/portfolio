@@ -30,6 +30,12 @@ const Navbar = () => {
       </Link>
       <Link
         className="hover:bg-gradient-to-br from-amber-400 to-pink-500 font-medium px-3 py-2 rounded-2xl transition-all"
+        href="/services"
+      >
+        Services
+      </Link>
+      <Link
+        className="hover:bg-gradient-to-br from-amber-400 to-pink-500 font-medium px-3 py-2 rounded-2xl transition-all"
         href="/contact"
       >
         Contact
@@ -38,7 +44,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-md bg-gray-900/80 text-white p-4 px-8 shadow-lg rounded-b-2xl">
+    <nav className="sticky top-0 z-50 backdrop-blur-md shadow-lg bg-gray-900/80 text-white p-4 px-8 rounded-b-2xl mb-20 md:mb-0">
       {/* Mobile view */}
       <div className="flex items-center  md:hidden">
         <button onClick={toggleMenu} className="text-white">

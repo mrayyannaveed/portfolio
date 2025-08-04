@@ -1,6 +1,7 @@
 import Hero from "./components/hero";
 import Contact from "./contact/page";
 import Projects from "./projects/page";
+import Services from "./services/page";
 import Skill from "./skills/page";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero/>
       <Skill/>
       <Projects/>
+      <Services/>
       <Contact/>
     </div>
   );

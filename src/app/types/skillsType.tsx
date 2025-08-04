@@ -1,4 +1,4 @@
-export type Skill = {
+export interface Skill {
         head: string,
         desc: string,
         bgcol: string,
@@ -7,9 +7,16 @@ export type Skill = {
     }
 
 
-export type Project = {
+export interface Project {
     image:string,
     head:string,
     desc:string,
     link:string
   }
+
+export interface com {
+    heading: string,
+    desc: string,
+    bgcol: string,
+    atribute: React.ReactNode
+}
