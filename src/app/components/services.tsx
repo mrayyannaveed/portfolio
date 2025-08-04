@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { com } from '../types/skillsType'
 
 const ServicesCom = () => {
-    let servesCom: com[] = [
+    const servesCom: com[] = [
         {
             heading: "Frontend Development",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias voluptate consequatur ea tempore soluta, quasi nisi autem qui odit.",
